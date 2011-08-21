@@ -12,10 +12,12 @@
     CGFloat underlineThickness;
     UIColor* underlineColor;
     CGFloat underlinePosition; //NEGATIVE! distance between baseline and underline
+    BOOL underlined;
 }
 
 @property (nonatomic) CGFloat underlineWidth;
 @property (nonatomic) CGFloat underlinePosition;
 @property (nonatomic, retain) UIColor* underlineColor;
+@property (nonatomic) BOOL underlined;
 
 @end

@@ -14,6 +14,17 @@
 
 #pragma mark Accessors
 
+-(BOOL)underlined {
+    return underlined;
+}
+
+-(void)setUnderlined:(BOOL)value {
+    if (underlined != value) {
+        underlined = value;
+        [self setNeedsDisplay];
+    }
+}
+
 -(void)setTextColor:(UIColor *)value {
     [super setTextColor:value];
     self.underlineColor = value;
@@ -28,6 +39,7 @@
         self.underlineColor = [UIColor blackColor];
         self.underlineWidth = 1.0;
         self.underlinePosition = -3.0;
+        self.underlined = YES;
     }
     return self;
 }
@@ -38,6 +50,7 @@
         self.underlineColor = [UIColor blackColor];
         self.underlineWidth = 1.0;
         self.underlinePosition = -3.0;
+        self.underlined = YES;
     }
     return self;
 }
@@ -48,6 +61,7 @@
         self.underlineColor = [UIColor blackColor];
         self.underlineWidth = 1.0;
         self.underlinePosition = -3.0;
+        self.underlined = YES;
     }
     return self;
 }
@@ -56,6 +70,7 @@
     self.underlineColor = nil;
     self.underlineWidth = 0;
     self.underlinePosition = 0;
+    self.underlined = NO;
     
     [super dealloc];
 }
@@ -81,7 +96,7 @@
     CGContextAddPath(ctx, underline);
     CGContextDrawPath(ctx, kCGPathStroke);
     
-    if (self.shadowColor) {
+    if (self.shadowColor && self.underlined) {
         CGMutablePathRef underline = CGPathCreateMutable();
         CGPathMoveToPoint(underline, NULL, left.x+self.shadowOffset.width, left.y+self.shadowOffset.height);
         CGPathAddLineToPoint(underline, NULL, right.x+self.shadowOffset.width, right.y+self.shadowOffset.height);
