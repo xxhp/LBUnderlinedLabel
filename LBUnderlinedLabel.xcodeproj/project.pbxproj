@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BAF815D14015C6E0003D92E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BAF815C14015C6E0003D92E /* UIKit.framework */; };
+		2BAF815F14015C6E0003D92E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BAF815E14015C6E0003D92E /* Foundation.framework */; };
+		2BAF816114015C6E0003D92E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BAF816014015C6E0003D92E /* CoreGraphics.framework */; };
+		2BAF816714015C6E0003D92E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BAF816514015C6E0003D92E /* InfoPlist.strings */; };
+		2BAF816914015C6E0003D92E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BAF816814015C6E0003D92E /* main.m */; };
+		2BAF816D14015C6E0003D92E /* LBUnderlinedLabelAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BAF816C14015C6E0003D92E /* LBUnderlinedLabelAppDelegate.m */; };
+		2BAF817014015C6E0003D92E /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BAF816E14015C6E0003D92E /* MainWindow.xib */; };
+		2BAF817314015C6E0003D92E /* LBUnderlinedLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BAF817214015C6E0003D92E /* LBUnderlinedLabelViewController.m */; };
+		2BAF817614015C6E0003D92E /* LBUnderlinedLabelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BAF817414015C6E0003D92E /* LBUnderlinedLabelViewController.xib */; };
+		2BAF817E14015C7D0003D92E /* LBUnderlinedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BAF817D14015C7D0003D92E /* LBUnderlinedLabel.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2BAF815814015C6E0003D92E /* LBUnderlinedLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBUnderlinedLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BAF815C14015C6E0003D92E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2BAF815E14015C6E0003D92E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2BAF816014015C6E0003D92E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2BAF816414015C6E0003D92E /* LBUnderlinedLabel-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LBUnderlinedLabel-Info.plist"; sourceTree = "<group>"; };
+		2BAF816614015C6E0003D92E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2BAF816814015C6E0003D92E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BAF816A14015C6E0003D92E /* LBUnderlinedLabel-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LBUnderlinedLabel-Prefix.pch"; sourceTree = "<group>"; };
+		2BAF816B14015C6E0003D92E /* LBUnderlinedLabelAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBUnderlinedLabelAppDelegate.h; sourceTree = "<group>"; };
+		2BAF816C14015C6E0003D92E /* LBUnderlinedLabelAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBUnderlinedLabelAppDelegate.m; sourceTree = "<group>"; };
+		2BAF816F14015C6E0003D92E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		2BAF817114015C6E0003D92E /* LBUnderlinedLabelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LBUnderlinedLabelViewController.h; sourceTree = "<group>"; };
+		2BAF817214015C6E0003D92E /* LBUnderlinedLabelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBUnderlinedLabelViewController.m; sourceTree = "<group>"; };
+		2BAF817514015C6E0003D92E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LBUnderlinedLabelViewController.xib; sourceTree = "<group>"; };
+		2BAF817C14015C7D0003D92E /* LBUnderlinedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBUnderlinedLabel.h; sourceTree = SOURCE_ROOT; };
+		2BAF817D14015C7D0003D92E /* LBUnderlinedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBUnderlinedLabel.m; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BAF815514015C6E0003D92E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BAF815D14015C6E0003D92E /* UIKit.framework in Frameworks */,
+				2BAF815F14015C6E0003D92E /* Foundation.framework in Frameworks */,
+				2BAF816114015C6E0003D92E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BAF814D14015C6D0003D92E = {
+			isa = PBXGroup;
+			children = (
+				2BAF816214015C6E0003D92E /* LBUnderlinedLabel */,
+				2BAF815B14015C6E0003D92E /* Frameworks */,
+				2BAF815914015C6E0003D92E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BAF815914015C6E0003D92E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BAF815814015C6E0003D92E /* LBUnderlinedLabel.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BAF815B14015C6E0003D92E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2BAF815C14015C6E0003D92E /* UIKit.framework */,
+				2BAF815E14015C6E0003D92E /* Foundation.framework */,
+				2BAF816014015C6E0003D92E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2BAF816214015C6E0003D92E /* LBUnderlinedLabel */ = {
+			isa = PBXGroup;
+			children = (
+				2BAF817C14015C7D0003D92E /* LBUnderlinedLabel.h */,
+				2BAF817D14015C7D0003D92E /* LBUnderlinedLabel.m */,
+				2BAF816B14015C6E0003D92E /* LBUnderlinedLabelAppDelegate.h */,
+				2BAF816C14015C6E0003D92E /* LBUnderlinedLabelAppDelegate.m */,
+				2BAF816E14015C6E0003D92E /* MainWindow.xib */,
+				2BAF817114015C6E0003D92E /* LBUnderlinedLabelViewController.h */,
+				2BAF817214015C6E0003D92E /* LBUnderlinedLabelViewController.m */,
+				2BAF817414015C6E0003D92E /* LBUnderlinedLabelViewController.xib */,
+				2BAF816314015C6E0003D92E /* Supporting Files */,
+			);
+			path = LBUnderlinedLabel;
+			sourceTree = "<group>";
+		};
+		2BAF816314015C6E0003D92E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BAF816414015C6E0003D92E /* LBUnderlinedLabel-Info.plist */,
+				2BAF816514015C6E0003D92E /* InfoPlist.strings */,
+				2BAF816814015C6E0003D92E /* main.m */,
+				2BAF816A14015C6E0003D92E /* LBUnderlinedLabel-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BAF815714015C6E0003D92E /* LBUnderlinedLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BAF817914015C6E0003D92E /* Build configuration list for PBXNativeTarget "LBUnderlinedLabel" */;
+			buildPhases = (
+				2BAF815414015C6E0003D92E /* Sources */,
+				2BAF815514015C6E0003D92E /* Frameworks */,
+				2BAF815614015C6E0003D92E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBUnderlinedLabel;
+			productName = LBUnderlinedLabel;
+			productReference = 2BAF815814015C6E0003D92E /* LBUnderlinedLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BAF814F14015C6D0003D92E /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 2BAF815214015C6D0003D92E /* Build configuration list for PBXProject "LBUnderlinedLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2BAF814D14015C6D0003D92E;
+			productRefGroup = 2BAF815914015C6E0003D92E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BAF815714015C6E0003D92E /* LBUnderlinedLabel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BAF815614015C6E0003D92E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BAF816714015C6E0003D92E /* InfoPlist.strings in Resources */,
+				2BAF817014015C6E0003D92E /* MainWindow.xib in Resources */,
+				2BAF817614015C6E0003D92E /* LBUnderlinedLabelViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BAF815414015C6E0003D92E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BAF816914015C6E0003D92E /* main.m in Sources */,
+				2BAF816D14015C6E0003D92E /* LBUnderlinedLabelAppDelegate.m in Sources */,
+				2BAF817314015C6E0003D92E /* LBUnderlinedLabelViewController.m in Sources */,
+				2BAF817E14015C7D0003D92E /* LBUnderlinedLabel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2BAF816514015C6E0003D92E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BAF816614015C6E0003D92E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2BAF816E14015C6E0003D92E /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BAF816F14015C6E0003D92E /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		2BAF817414015C6E0003D92E /* LBUnderlinedLabelViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BAF817514015C6E0003D92E /* en */,
+			);
+			name = LBUnderlinedLabelViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BAF817714015C6E0003D92E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2BAF817814015C6E0003D92E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BAF817A14015C6E0003D92E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LBUnderlinedLabel/LBUnderlinedLabel-Prefix.pch";
+				INFOPLIST_FILE = "LBUnderlinedLabel/LBUnderlinedLabel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2BAF817B14015C6E0003D92E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LBUnderlinedLabel/LBUnderlinedLabel-Prefix.pch";
+				INFOPLIST_FILE = "LBUnderlinedLabel/LBUnderlinedLabel-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BAF815214015C6D0003D92E /* Build configuration list for PBXProject "LBUnderlinedLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BAF817714015C6E0003D92E /* Debug */,
+				2BAF817814015C6E0003D92E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BAF817914015C6E0003D92E /* Build configuration list for PBXNativeTarget "LBUnderlinedLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BAF817A14015C6E0003D92E /* Debug */,
+				2BAF817B14015C6E0003D92E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BAF814F14015C6D0003D92E /* Project object */;
+}
